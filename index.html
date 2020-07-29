@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>YoHelper</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="helper">
+            <!-- Chat Box -->
+            <div id="chat-win">
+                <div id="heading">
+                    <div id="logo">i</div>
+                    <div id="bot">Chat Bot</div>
+                </div>
+
+                <!-- Conversation -->
+                <div id="messages">
+                    <!-- <div class="user"><p class="umsg"> User Message Goes here </p></div> -->
+                    <!-- <div class="server"><p class="smsg"> Server Message Goes here </p></div> -->
+                </div>
+
+                <!-- User Input -->
+                <form action="/" method="POST">
+                    <input type="text" id="userin" name="userin"  placeholder="Type a message">
+                    <input type="button" id="submitBtn" value="Send">
+                </form>
+            </div>
+
+            <div id="help">
+                <span id="symbol" class="helptext">?</span>
+                <p id="texthelp" class="helptext">I am here to help you out!</p>
+            </div>
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
