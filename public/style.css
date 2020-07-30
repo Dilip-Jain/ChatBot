@@ -125,3 +125,13 @@ form{
     width: 100%;
     opacity: 1;
 }
+
+#additionalFrontEnd{
+    text-align: center;
+}
+
+#bottomMost{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}

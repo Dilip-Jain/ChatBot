@@ -7,6 +7,7 @@ const sym = document.getElementById('symbol');
 const texthelp = document.getElementById('texthelp');
 const send = document.getElementById('submitBtn');
 const userin = document.getElementById('userin');
+const additionalFrontEnd = document.getElementById('additionalFrontEnd');
 
 let cbActive = false;
 
@@ -65,12 +66,13 @@ userin.addEventListener('keypress',function(e){
 help.addEventListener('click',()=>{
     if(!cbActive){
         cbActive = true;
+        additionalFrontEnd.style.display = 'none';
         chatwin.style.display = 'block';
         sym.innerHTML = 'x';
-
     }
     else{
         cbActive = false;
+        additionalFrontEnd.style.display = 'block';
         chatwin.style.display = 'none';
         sym.innerHTML = '?';
     }
